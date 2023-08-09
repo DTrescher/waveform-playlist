@@ -58,7 +58,8 @@
     "webpack:server": "webpack serve --static dist/ --color --host 0.0.0.0 --config webpack.config.dev.js",
     "start": "npm run webpack:server",
     "dev": "npm run jekyll:dev && npm run jekyll:scss && npm run webpack:server",
-    "website": "npm run build && npm run ghpages"
+    "website": "npm run build && npm run ghpages",
+    "all": "npm run clean && npm run prepare"
   },
   "repository": {
     "type": "git",
